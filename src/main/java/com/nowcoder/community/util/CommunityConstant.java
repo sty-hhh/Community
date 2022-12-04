@@ -87,4 +87,9 @@ public interface CommunityConstant {
      */
     String AUTHORITY_MODERATOR = "moderator";
 
+    /**
+     * 帖子状态：删帖
+     */
+    int POST_DELETE = 2;
+
 }
