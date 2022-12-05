@@ -67,6 +67,7 @@ public class ShareController implements CommunityConstant {
 
     // 废弃
     // 获取长图
+    @Deprecated
     @RequestMapping(path = "/share/image/{fileName}", method = RequestMethod.GET)
     public void getShareImage(@PathVariable("fileName") String fileName, HttpServletResponse response) {
         if (StringUtils.isBlank(fileName)) {

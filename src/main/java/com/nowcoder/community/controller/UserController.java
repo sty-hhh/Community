@@ -109,6 +109,7 @@ public class UserController implements CommunityConstant {
     }
 
     // 废弃
+    @Deprecated
     @LoginRequired
     @RequestMapping(path = "/upload", method = RequestMethod.POST)
     public String uploadHeader(MultipartFile headerImage, Model model) {
@@ -147,6 +148,7 @@ public class UserController implements CommunityConstant {
     }
 
     // 废弃
+    @Deprecated
     @RequestMapping(path = "/header/{fileName}", method = RequestMethod.GET)
     public void getHeader(@PathVariable("fileName") String fileName, HttpServletResponse response) {
         // 服务器存放路径
