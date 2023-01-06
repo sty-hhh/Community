@@ -3,7 +3,7 @@
 A discussion community project. It not only includes registration, login, posting, commenting, liking, and replying functions, but also realizes sensitive word filtering using prefix tree, generates growth charts and pdfs using wkhtmltopdf, realizes website UV and DAU statistics, and stores user avatars and other information on the cloud server.
  <img width="960" alt="framework" src="https://user-images.githubusercontent.com/67742649/206989138-e44b3cf8-6349-4228-959a-2f986eed5dd0.png">
  ![image](https://user-images.githubusercontent.com/67742649/211079116-4c56c564-228a-4fb9-8d63-9089e2cd07ec.png)
- ![image](https://user-images.githubusercontent.com/67742649/211078912-0f2979a5-e78d-43d8-9e51-bb8ea87a5ffc.png)
+ ![image](https://user-images.githubusercontent.com/67742649/211079263-a4ec451e-0fae-4726-9a16-97c455002b2d.png)
 
  ## Functions
  - Used **Spring Security** to implement permission control, instead of the interceptor, and used their own authentication scheme instead of the Security authentication process, which made permission authentication and control more convenient and flexible.
